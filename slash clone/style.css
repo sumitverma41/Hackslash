@@ -1,0 +1,584 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+header{
+ 
+    position: sticky;
+    top: 0px;
+    
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+.left{
+    display: flex;
+    justify-content: space-around;
+    width: 50vw;
+    align-items: center;
+}
+.logo img{
+    height: 2.5rem;
+    width: 2.5rem;
+    border-radius: 50%;
+}
+.nav span{
+    margin: 0px 15px;
+}
+.nav :first-child{
+    font-weight: bold;
+}
+.right button{
+    margin-right: 20px;
+}
+main{
+    width: 70vw;
+    margin: 0 auto;
+}
+.main{
+    
+    display: flex;
+    
+
+
+}
+.mleft{
+    justify-content: center;
+    
+    width: 50%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+  
+}
+.bigfont span{
+    font-weight: bold;
+}
+.bigfont{
+    font-size: 2em;
+}
+.smallfont span{
+    text-decoration: underline;
+}
+.smallfont{
+    font-size: 1.1em;
+    margin: 2vh 0;
+}
+
+  button{
+   height: 50px;
+   padding: 10px;
+   width: 150px;
+   color: aliceblue;
+  border-radius: 15px;
+  font-weight: bold;
+background-color: rgb(80, 162, 255);
+}
+
+button span{
+margin-right: 5px;
+}
+
+.mright{
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 50%;
+}
+.container{
+    width: 80%;
+    height: 60%;
+    display: flex;
+    align-items: end;
+    background-color: rgb(62, 60, 60);
+    border-radius: 30px;
+ 
+} 
+.box{
+    height: 90%;
+    width: 100%;
+    background-color: rgb(39, 39, 39);
+    border-radius:0px 0px 30px 30px;
+    display: flex;
+   
+
+}
+.codecon {
+    font-family: 'Courier New', Courier, monospace;
+    color: greenyellow;
+    overflow-x: auto;
+ 
+}
+.codecon span{
+    color:  rgb(84, 84, 84);
+    padding: 0px 20px 0px 0px;
+}
+.bnav{
+  margin: 0px auto;
+  width: 70vw;
+
+}
+ .bnav span{
+    margin: 0 30px 0 0;
+ }
+ .about
+ {
+    width: 70vw;
+    display: flex;
+margin: 30vh auto;
+justify-content: space-around;
+gap: 10vw;
+}
+.img{
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+ 
+.img img{
+  width: 20vw;
+  height: 30vh;
+}
+.aboutme .title{
+    font-size: xx-large;
+    color: blue;
+    margin-bottom: 2vh;
+}
+.imgg img{
+    width: 30vw;
+    height: 40vh; 
+}
+.aboutt ,.abouttt{
+    width: 70vw;
+    display: flex;
+margin: 0vh auto;
+justify-content: space-around;
+gap: 10vw;
+margin-bottom: 10vh;
+}
+.service{
+    font-size: xx-large;
+    color: blue;
+    margin-bottom: 2vh;
+    text-align: center;
+}
+.back{
+    font-size: large;
+    font-weight: bold;
+}
+.aboutme button{
+    margin-top: 4vh;
+}
+
+
+.abouttt{
+    margin-bottom: 20vh;
+}
+
+.bottfir
+{
+  display: flex;
+  height: 40vh;
+
+}
+.blue{
+    width: 50%;
+    background-color: aqua;
+    display: flex;
+    
+    align-items: center;
+ 
+ 
+}
+
+.bcon{
+    width: 45%;
+    margin:0 10% 0 50%;
+}
+.bfont{
+    font-size: large;
+    margin-bottom: 2vh;
+}
+.sfont{
+    font-size: 0.7em;
+    margin-bottom: 2vh;
+}
+.sfon{
+    margin-bottom: 6vh;
+}
+.read{
+    background-color: aqua;
+    border: none;
+    /* border: 2px solid; */  
+}
+.whit{
+    width: 50%;
+   
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+.wcon{
+    margin:0 50% 0 10%;
+}
+.readb{
+    background-color: white;
+    color: blue;
+    border: none;
+}
+.white{
+    background-color: white;
+
+}
+.black{
+    background-color: rgb(31, 28, 28);
+    color: white;
+}
+.readc{
+    color:white;
+    background-color:rgb(31, 28, 28);
+}
+.bottsec{
+    margin-bottom: 10vh;
+}
+.bott{
+    text-align: center;
+    font-size: xx-large;
+    color: blue;
+margin-bottom: 5vh;
+}
+.conta{
+    display: flex;
+    justify-content: center;
+    gap: 5vw;
+}
+.boxa{
+    height: 25vh;
+    width:20vw ;
+   
+    display: flex;
+    overflow: auto;
+  color: rgb(94, 95, 95);
+    box-shadow: 0px 2px 10px 0.2px rgb(215, 213, 213);
+    
+}
+.boxa span{
+    display: inline-block;
+    margin: 3vh 2vw 0 2vw;
+    font-size: 2rem;
+}
+.sswap{
+    margin-top: 2.8vh;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+.swap p{
+    margin-top: 2.5vh;
+    font-size: 0.9rem;
+}
+.star{
+    display: flex;
+    margin-top: 3vh;
+    
+}
+.st{
+    
+    margin-right: 2vw;
+}
+.bboxa{
+    background-color: rgb(40, 39, 39);
+    color: rgb(230, 227, 227);
+}
+.dot{
+    display: flex;
+    justify-content: center;
+    gap: 1.2vw;
+    margin-top: 5vh;
+    align-items: center;
+}
+.ddot{
+  font-size: 0.7rem;
+  color: blue;
+}
+.sdot{
+    border-radius: 50%;
+  font-size: 0.3rem;
+  box-shadow: 0px 0px 0px 5px rgb(195, 195, 229);
+  border: none;
+
+}
+.sbott{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30vh;
+}
+.lef .need{
+    color: blue;
+    font-size: 1.2rem;
+}
+footer{
+    margin-top: 20vh;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10vh;
+}
+.le span img{
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+}
+.le{
+    display: flex;
+    gap: 2vw;
+}
+.para :first-child{
+    font-size: 1.1rem;
+} 
+.para :nth-child(2){
+    font-size: 0.8rem;
+}
+.ri a{
+    text-decoration: none;
+    color: rgb(53, 52, 52);
+    margin-left: 10px;
+}
+
+@media (max-width: 1200px) {
+    .left {
+        width: 60vw;
+    }
+    .mleft, .mright {
+        width: 100%;
+    }
+    .about, .aboutt, .abouttt {
+        flex-direction: column;
+        align-items: center;
+    }
+    .aboutme, .imgg {
+        width: 100%;
+    }
+    .bcon, .wcon {
+        margin: 0 5%;
+    }
+    .boxa {
+        height: auto;
+        width: 90%;
+        overflow: hidden;
+        flex-direction: column;
+        align-items: center;
+    }
+    .boxa span {
+        font-size: 1.8rem;
+    }
+    .swap p {
+        font-size: 0.8rem;
+    }
+    .bottfir .bfont {
+        font-size: 1.2em;
+    }
+    .bottfir .sfont {
+        font-size: 0.8em;
+    }
+    .bottfir .sfon {
+        font-size: 0.8em;
+    }
+    .bottfir .read, .bottfir .readb {
+        font-size: 0.9em;
+    }
+    .bcon{
+        width: 90%;
+        
+     }
+}
+
+@media (max-width: 768px) {
+    nav {
+
+        justify-content: space-around;
+    }
+    .left {
+        width: 100%;
+        justify-content: space-around;
+    }
+    .nav {
+        width: 70%;
+        display: flex;
+        justify-content: space-around;
+    }
+    .nav span {
+        margin: 20px 0;
+    }
+    .right {
+        margin-top: 10px;
+        display: none;
+    }
+    .main {
+        flex-direction: column;
+        align-items: center;
+    }
+    .mleft {
+        width: 100%;
+        text-align: center;
+        align-items: center;
+    }
+    .container {
+        width: 100%;
+        border-radius: 10px
+        ;
+        
+    }
+    .box{
+    
+        border-radius: 10px;
+    }
+    .about, .aboutt, .abouttt {
+        width: 90%;
+    }
+    .img img {
+        width: 50%;
+        height: 50%;
+    }
+    .about{
+        margin-bottom: 10vh;
+    }
+    .bnav, .bottfir, .bottsec, .conta, .sbott {
+        width: 90%;
+    }
+    .bnav{
+        margin-top: 3vh;
+        display: flex;
+        justify-content: center;
+    }
+    .boxa {
+        height: auto;
+        width: 100%;
+        overflow: hidden;
+        flex-direction: column;
+        align-items: center;
+    }
+    .boxa span {
+        font-size: 1.5rem;
+    }
+    .swap p {
+        font-size: 0.7rem;
+    }
+    .bottfir .bfont {
+        font-size: 1em;
+    }
+    .bottfir .sfont {
+        font-size: 0.7em;
+    }
+    .bottfir .sfon {
+        font-size: 0.7em;
+    }
+    .bottfir .read, .bottfir .readb {
+        font-size: 0.8em;
+    }
+    .bcon{
+        width: 90%;
+        
+     }
+}
+
+@media (max-width: 480px) {
+    .logo img {
+        height: 2rem;
+        width: 2rem;
+    }
+    .nav  {
+        font-size: small;
+        
+    }
+    .nav span{
+        margin-left: 5px;
+    }
+    .bigfont {
+        font-size: 1.5em;
+    }
+    .smallfont {
+        font-size: 1em;
+    }
+    button {
+        width: 100px;
+        padding: 5px;
+    }
+    .aboutme .title, .service, .bfont {
+        font-size: large;
+    }
+    .imgg img{
+       width: 100%;
+       height: 100%;
+    }
+    
+    .imgg{
+     margin: 0 auto;
+    }
+  
+    .aboutme{
+        display:flex ;
+        flex-direction: column;
+        align-items: center;
+    }
+    .sfont {
+        font-size: 0.6em;
+    }
+ 
+    .boxa span {
+        font-size: 1.2rem;
+    }
+    .swap p {
+        font-size: 0.6rem;
+    }
+    .sswap {
+        font-size: 1rem;
+    }
+    .swap p {
+        font-size: 0.8rem;
+    }
+    .st {
+        margin-right: 1vw;
+    }
+    .ddot {
+        font-size: 0.5rem;
+    }
+   
+    .lef, .right {
+        width: 100%;
+        text-align: center;
+    }
+    footer {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .ri {
+        margin-top: 10px;
+    }
+    .bottfir .bfont {
+        font-size: 0.9em;
+    }
+    .bottfir .sfont {
+        font-size: 0.6em;
+    }
+    .bottfir .sfon {
+        font-size: 0.6em;
+    }
+    .bottfir .read, .bottfir .readb {
+        font-size: 0.7em;
+    }
+    .boxa {
+        height: auto;
+        width: 100%;
+   
+    }
+    .bcon{
+       width: 90%;
+       
+    }
+}
