@@ -41,8 +41,8 @@ main{
 .main{
     
     display: flex;
-    
-
+    margin-top: 10vh;
+gap: 3vw;
 
 }
 .mleft{
@@ -91,19 +91,19 @@ margin-right: 5px;
    width: 50%;
 }
 .container{
-    width: 80%;
-    height: 70%;
+    width: 100%;
+    height: 68%;
     display: flex;
     align-items: end;
     background-color: rgb(62, 60, 60);
-    border-radius: 30px;
+
  
 } 
 .box{
     height: 90%;
     width: 100%;
     background-color: rgb(39, 39, 39);
-    border-radius:0px 0px 30px 30px;
+ 
     display: flex;
    
 
@@ -116,7 +116,19 @@ margin-right: 5px;
 }
 .codecon span{
     color:  rgb(84, 84, 84);
-    padding: 0px 20px 0px 0px;
+    /* padding: 0px 20px 0px 0px; */
+}
+.codecon .whitee{
+    color: white;
+}
+.codecon .red{
+    color: rgb(239, 135, 98);
+}
+.codecon .green{
+    color: greenyellow;
+}
+.codecon .yellow{
+    color: orange;
 }
 .bnav{
   margin: 0px auto;
