@@ -6,6 +6,11 @@
     <title>clone</title>
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/03da6d55dc.js" crossorigin="anonymous"></script>
+    <style>
+        body {
+            overflow-x: hidden;
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -14,12 +19,12 @@
                 <div class="logo">
                     <img src="https://cdn.pixabay.com/photo/2016/12/26/18/33/logo-1932539_1280.png" alt="logo">
                 </div>
-                <div class="nav">
-                    <span>START </span> 
-                    <span>ABOUT </span> 
-                    <span>SERVICES </span> 
-                    <span>BLOG </span> 
-                    <span>OPEN SOURCE </span> 
+                <div class="nav"> 
+                    <a href="">START</a>
+                    <a href="">ABOUT </a>
+                    <a href="">SERVICES</a>
+                    <a href="">BLOG</a>
+                    <a href="">OPEN SOURCE</a>
                 </div>
              </div>
              <div class="right">
@@ -27,6 +32,7 @@
              </div>
         </nav>
     </header>
+    <canvas id="ok"  ></canvas>
     <main>
         <div class="main">
         <div class="mleft">
@@ -84,7 +90,7 @@
         <div class="aboutme">
           <div class="back">Backend Developer</div>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime earum quae, sapiente aperiam placeat laboriosam natus beatae facilis cupiditate est dicta aliquid! Voluptatibus, sit? Quo alias est culpa ipsam dolore aut aliquid, omnis optio, quos perspiciatis eaque dolor dignissimos? Nobis vitae est debitis assumenda velit?</p>
-            <button><i class="fa-solid fa-arrow-right"></i> Work With Me</button>
+            <button class="butt"><i class="fa-solid fa-arrow-right"></i> Work With Me</button>
         </div>
     </div>
   
@@ -92,7 +98,7 @@
         <div class="aboutme">
           <div class="back">Frontend Developer</div>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime earum quae, sapiente aperiam placeat laboriosam natus beatae facilis cupiditate est dicta aliquid! Voluptatibus, sit? Quo alias est culpa ipsam dolore aut aliquid, omnis optio, quos perspiciatis eaque dolor dignissimos? Nobis vitae est debitis assumenda velit?</p>
-            <button><i class="fa-solid fa-arrow-right"></i> Work With Me</button>
+            <button class="butt"><i class="fa-solid fa-arrow-right"></i> Work With Me</button>
         </div>
         <div class="imgg">
             <img src="img.png"  alt="">
@@ -198,7 +204,7 @@
         <p class="let" >Let's get in touch!</p>
     </div>
     <div class="right">
-        <button ><i class="fa-solid fa-arrow-right"></i>
+        <button class="butt"><i class="fa-solid fa-arrow-right"></i>
             work with me
         </button>
     </div>
@@ -220,5 +226,6 @@
    <a href="https://www.twitter.com">Twitter</a>
 </div>
 </footer>
+<script src="script.js"></script>
 </body>
-</html>   
+</html>
