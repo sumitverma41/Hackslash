@@ -6,6 +6,8 @@
 }
 body{
     width: 100vw;
+    overflow-x: hidden;
+    position: relative;
 }
 header{
  
@@ -30,7 +32,7 @@ nav{
     border-radius: 50%;
 }
 .nav a{
-    margin: 0px 12px;
+    margin: 0px 1vw;
     text-decoration: none;
     color: black;
 }
@@ -42,8 +44,9 @@ nav{
     font-weight: bold;
 }
 .right button{
-    margin-right: 20px;
+    margin-right: 3vw;
     background-color: rgb(30, 60, 255);
+    border-color: aliceblue;
 }
 main{
     width: 70vw;
@@ -225,9 +228,7 @@ margin-bottom: 10vh;
     
     align-items: center;
  
- 
 }
-
 .blue .bcon{
     width: 45%;
     margin:0 10% 0 50%;
@@ -398,8 +399,9 @@ footer{
     .aboutme, .imgg {
         width: 100%;
     }
-    .bcon, .wcon {
-        margin: 0 5%;
+    .blue .bcon, .whit .wcon {
+        margin: 0 5% ;
+        width: 90%;
     }
     .boxa {
         height: auto;
@@ -426,10 +428,7 @@ footer{
     .bottfir .read, .bottfir .readb {
         font-size: 0.9em;
     }
-    .bcon{
-        width: 90%;
-        
-     }
+
 }
 
 @media (max-width: 768px) {
@@ -518,10 +517,7 @@ footer{
     .bottfir .read, .bottfir .readb {
         font-size: 0.8em;
     }
-    .bcon{
-        width: 90%;
-        
-     }
+     
 }
 
 @media (max-width: 480px) {
@@ -615,15 +611,27 @@ footer{
         width: 100%;
    
     }
-    .bcon{
-       width: 90%;
-       
-    }
+
 }
-canvas{
+.ri a:hover{ 
+ text-decoration: underline;
+ 
+}
+#ok{
     position: absolute;
     height: 150vh;
     width: 100vw;
     z-index: -1;
     top: 0px;
+}
+footer{
+    position: relative;
+}
+#final{
+    height: 80vh;
+    width: 100vw;
+   position: absolute;
+  bottom: -20vh;
+  z-index: -1;
+
 }

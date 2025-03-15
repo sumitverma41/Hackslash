@@ -1,14 +1,14 @@
 const canvas = document.getElementById("ok");
 const ctx = canvas.getContext("2d");
 
-function resizeCanvas() {
+function resizecan() {
     canvas.width = window.innerWidth;
     canvas.height = window.innerHeight;
-    drawBackground();
+    drawback();
 }
 
 
-function drawBackground() {
+function drawback() {
 
     ctx.fillStyle = "rgb(30, 60, 255)";
     ctx.beginPath();
@@ -25,5 +25,27 @@ function drawBackground() {
 
 }
 
-window.addEventListener("resize", resizeCanvas);
-resizeCanvas();
+window.addEventListener("resize", resizecan);
+resizecan();
+
+
+let can = document.getElementById("final");
+let c = can.getContext("2d");
+
+
+function resize() {
+    can.width = window.innerWidth;
+    can.height = window.innerHeight;
+    draw();
+}
+ function draw(){
+    c.fillStyle = "rgba(245, 248, 250, 0.89)";
+    c.moveTo(0,can.height*0.8);
+    c.lineTo(can.width*0.5,0);
+    c.lineTo(can.width,can.height*0.8);
+    c.lineTo(can.width,can.height);
+    c.lineTo(0,can.height);
+    c.fill();
+ }
+
+resize();
