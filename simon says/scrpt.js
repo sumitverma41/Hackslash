@@ -21,6 +21,9 @@ buttons.forEach((button) => {
 
 //it is a fuction that generate a rendon no. and computer select a color by generated no.
 function game() {
+    setTimeout(()=>{
+
+    
     let random = Math.floor(Math.random() * 4);
     let cselect = buttons[random];
     cselect.style.boxShadow = '0 0 20px 5px black';
@@ -29,7 +32,7 @@ function game() {
         cselect.style.boxShadow = 'none';
     }, 500);
     carr.push(cselect.innerText);
-
+},300)
 }
 
 //this function is for user to select color and it return a promise .
